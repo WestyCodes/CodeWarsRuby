@@ -16,11 +16,11 @@ def number lines
   counter = 1
   result = []
   lines.each do |x|
-    string = ""
-    string << counter.to_s
-    string << ": "
-    string << x
-    result << string
+    str = ""
+    str << counter.to_s
+    str << ": "
+    str << x
+    result << str
     counter += 1
   end
   return result
