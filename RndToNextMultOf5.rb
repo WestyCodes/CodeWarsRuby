@@ -16,10 +16,10 @@ etc.
 =end
 
 def round_to_next_5(n)
-  mult = n % 5
-  if mult == 0
+  multiple = n % 5
+  if multiple == 0
     return n
   else 
-    return (n-mult) + 5
+    return (n-multiple) + 5
   end
 end
